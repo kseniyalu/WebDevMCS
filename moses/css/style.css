@@ -1,0 +1,12 @@
+h1, h2 {
+  background-color: Black;
+  color: white;
+}
+
+
+/* или
+
+.sectionHeader {
+  background-color: Black;
+  color: white;
+} */
