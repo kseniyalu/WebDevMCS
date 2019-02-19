@@ -1,0 +1,106 @@
+@import url(reset.css);
+/* @import url(normalize.css); */
+@import url('https://fonts.googleapis.com/css?family=Anton|Yrsa');
+
+
+.content {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.header {
+  height: 200px;
+  background-color: Black;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  line-height: 150px;
+  font-family: Anton;
+  font-size: 72px;
+  letter-spacing: 2px;
+
+}
+
+.mainMenu a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.mainMenu a:first-child {
+  margin-left: 0;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.sectionHeader  {
+  font-family: Yrsa;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 15px;
+
+}
+
+.sectionText {
+  width: 70%;
+  font-family: Yrsa;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.albums {
+  display: flex;
+  text-align: center;
+}
+
+.album {
+  position: relative;
+  border: 1px solid #dadada;
+  padding: 20px;
+  margin: 10px;
+  width: 180px;
+  height: 300px;
+}
+
+.albumheader {
+  height: 100px;
+}
+
+.albumNumber {
+  font-family: Anton;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 15px;
+}
+
+.albumImg {
+  width: 170px;
+  height: 170px;
+  position: absolute;
+  bottom: 25px;
+  background-image: url("../img/album-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.albumTitle {
+  font-family: Yrsa;
+  font-size: 18px;
+}
+
+.footer {
+  height: 50px;
+  background-color: Black;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-family: Yrsa;
+  font-size: 16px;
+  margin-top: 100px;
+}
