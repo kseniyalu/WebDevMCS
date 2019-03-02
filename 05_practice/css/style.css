@@ -1,0 +1,84 @@
+@import url(reset.css);
+/* @import url(normalize.css); */
+@import url('https://fonts.googleapis.com/css?family=Anton|Yrsa');
+
+.page {
+  font-family: PT Sans;
+}
+
+.header {
+  height: 100px;
+  background-color: #000;
+  position: relative;
+}
+
+.wrap {
+  margin: 0 30px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 100px;
+  color: #fff;
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+
+.menu {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 35px;
+}
+
+.menuItem {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 3px;
+  display: block;
+  
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: block;
+  font-size: 0;
+  margin: 20px auto;
+}
+
+.service {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 25px;
+  width: 25%;
+  border: 2px #cecece solid;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.service:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  height: 50px;
+  background-color: #000;
+}
+
+.footer p {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 30px;
+  line-height: 50px;
+}

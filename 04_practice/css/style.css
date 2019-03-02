@@ -66,7 +66,7 @@ section {
   height: 300px;
 }
 
-.albumheader {
+.albumHeader {
   height: 100px;
 }
 
@@ -83,10 +83,24 @@ section {
   height: 170px;
   position: absolute;
   bottom: 25px;
-  background-image: url("../img/album-1.jpg");
-  background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.albumFirst {
+  background-image: url("../img/album-1.jpg");
+}
+
+.albumSecond {
+  background-image: url("../img/album-2.jpg");
+}
+
+.albumThird {
+  background-image: url("../img/album-3.jpg");
+}
+
+.albumFourth {
+  background-image: url("../img/album-4.jpeg");
 }
 
 .albumTitle {
