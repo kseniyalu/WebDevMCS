@@ -8,8 +8,11 @@
 
 .header {
   height: 100px;
+  width: 100%;
   background-color: #000;
   position: relative;
+  position: fixed;
+  overflow: hidden;
 }
 
 .wrap {
@@ -17,19 +20,20 @@
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 24px;
   line-height: 100px;
   color: #fff;
   display: inline-block;
   position: absolute;
-  width: 50%;
+  float: left;
+  text-transform: uppercase;
 }
 
 .menu {
   display: inline-block;
-  width: 50%;
   position: absolute;
   top: 35px;
+  float: right;
 }
 
 .menuItem {
@@ -38,8 +42,24 @@ h1 {
   border-radius: 3px;
   background-color: #fff;
   margin-top: 3px;
-  display: block;
-  
+}
+
+.menuItem::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 3px;
+}
+
+.menuItem::after {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-top: 3px;
 }
 
 h2 {
@@ -47,24 +67,28 @@ h2 {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .content {
   display: block;
   font-size: 0;
-  margin: 20px auto;
 }
 
 .service {
   font-size: 16px;
   line-height: 24px;
+  text-align: left;
   padding: 25px;
-  width: 25%;
+  width: 30%;
+  height: 750px;
   border: 2px #cecece solid;
   border-radius: 5px;
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
+  margin-top: 150px;
+  box-sizing: border-box;
 }
 
 .service:last-child {
@@ -74,6 +98,7 @@ h2 {
 .footer {
   height: 50px;
   background-color: #000;
+  margin-top: 100px;
 }
 
 .footer p {
