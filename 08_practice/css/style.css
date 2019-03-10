@@ -1,0 +1,73 @@
+@import url(reset.css);
+/* @import url(normalize.css); */
+@import url('https://fonts.googleapis.com/css?family=Anton|Yrsa');
+
+.page {
+  font-family: PT Sans;
+}
+
+.header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.logo {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: center;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 10vh auto;
+}
+
+.column {
+  width: calc((100% - 80px)/3);
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  overflow: hidden;
+  align-self: flex-start;
+}
+
+.quoteImg {
+  padding-bottom: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.imgOne {
+  background-image: url("../img/img-1.jpg");
+}
+
+.imgTwo {
+  background-image: url("../img/img-2.jpg");
+}
+
+.imgThree {
+  background-image: url("../img/img-3.jpg");
+}
+
+p {
+  padding: 10% 12%;
+  line-height: 19px;
+}
+
+.footer {
+  height: 80px;
+  background-color: #000;
+}
+
+.footerText {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 30px;
+  line-height: 80px;
+}
