@@ -1,0 +1,131 @@
+@import url(reset.css);
+/* @import url(normalize.css); */
+@import url('https://fonts.googleapis.com/css?family=Anton|Yrsa');
+
+.page {
+  font-family: PT Sans;
+}
+
+.header {
+  height: 60px;
+  background-color: black;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  align-self: center;
+  color: #fff;
+  margin-left: 30px;
+}
+
+.main {
+  max-width: 90%;
+  margin: 5vh auto;
+}
+
+.column {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.footer {
+  height: 60px;
+  background-color: #000;
+}
+
+.footerText {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 30px;
+  line-height: 60px;
+}
+
+@media screen and (min-width: 960px) {
+
+  .header {
+    height: 60px;
+    background-color: black;
+  }
+
+  .logo {
+    font-size: 18px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-self: center;
+    color: #fff;
+    margin-left: 30px;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    max-width: 90%;
+    margin: 5vh auto;
+  }
+
+  .column {
+    max-width: calc((100% - 40px)/2);
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .footer {
+    height: 60px;
+    background-color: #000;
+  }
+
+  .footerText {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 30px;
+    line-height: 60px;
+  }
+
+}
+
+@media screen and (min-width: 1264px) {
+
+  .main {
+    max-width: 70%;
+    margin: 5vh auto;
+  }
+
+}
