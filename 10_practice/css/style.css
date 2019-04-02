@@ -1,0 +1,113 @@
+@import url(reset.css);
+/* @import url(normalize.css); */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.page {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F55780;
+  font-family: Comfortaa;
+  color: #000;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+  align-self: center;
+}
+
+.form-title {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.page-form {
+  width: 30vw;
+  min-height: 40vh;
+  padding: 7%;
+  background-color: #fff;
+  border-radius: 2%;
+  box-shadow: 0px 40px 60px 7px rgba(166, 17, 58, 0.53);
+}
+
+.form-item {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  margin-bottom: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="text"], input[type="email"] {
+  width: 70%;
+  height: 38px;
+  border: 1px solid #F55780;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.checkbox-item,
+.radio-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+select {
+  width: 70%;
+  box-sizing: border-box;
+  height: 38px;
+  cursor: pointer;
+  padding-left: 10px;
+  outline: 0;
+  border: 1px solid #F55780;
+  font-size: 14px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+button {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  background-image:
+      linear-gradient(
+        to top right,
+        #F55780, #ff257a
+      );
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover {
+  border: 2px solid #F55780;;
+}
